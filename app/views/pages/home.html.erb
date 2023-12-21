@@ -1,2 +1,62 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="back-ground-container">
+  <div class="banner">
+    <div class="col-sm-8 col-md-6 col-lg-4 mx-auto">
+      <h1 class="text-white"><strong>Your Pitch</strong></h1>
+    </div>
+  </div>
+
+  <div class="container mt-3 col-sm-8 col-md-6 col-lg-4">
+  <div class="row">
+      <div class="card-home text-white">
+      <h4>Manage your gigs as easy as <strong>Am F C G</strong></h4>
+      <p>Build your setlists, plan your gigs, manage your band members, organize your repertoire - all in one place!</p>
+      <div>
+        <%= link_to "Get started ->", new_user_session_path, class: "btn btn-info btn-md w-80 text-white" %>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="section text-white">
+    <h2><strong>Our Features</strong></h2>
+
+    <div class="all-features">
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Invite band members</strong></h3>
+        <p>Invite your band members to join your band on Your Pitch.</p>
+      </div>
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Plan all your <br>gigs</strong></h3>
+        <p>Keep track of your upcoming gigs and latest activities.</p>
+      </div>
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Receive notifications</strong></h3>
+        <p>Receive email notifications for new gigs and let your band members know if you're in.</p>
+      </div>
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Organize your repertoire</strong></h3>
+        <p>Manage your songs, upload your own sheets or be the lazy guy and use your band member's.</p>
+      </div>
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Build setlists</strong></h3>
+        <p>Easily build your setlists by dragging and dropping songs from your repertoire.</p>
+      </div>
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Export your gig setlist</strong></h3>
+        <p>Export your sheets in a single file and don't worry about the paperwork on stage.</p>
+      </div>
+
+      <div class="feature card-home col-sm-8 col-md-6 col-lg-3">
+        <h3><strong>Subscribe to your band's calendar</strong></h3>
+        <p>Never miss your practice sessions again by adding your band's calendar to your personal calendar.</p>
+      </div>
+
+    </div>
+  </div>
+</div>
